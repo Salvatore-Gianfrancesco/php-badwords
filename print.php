@@ -1,7 +1,7 @@
 <?php
 
-$paragraph = $_GET['paragraph'];
-$badword = $_GET['badword'];
+$paragraph = trim($_GET['paragraph']);
+$badword = trim($_GET['badword']);
 
 // echo $paragraph;
 // echo '<br>';
